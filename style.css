@@ -268,18 +268,20 @@ END CART DROP
 /*
 BUILD
 */
-
-#sidebar {
+.left_panel{
     position: absolute;
     width: 264px;
     height: 540px;
     left: 0px;
     top: 220px;
+}
 
+
+#sidebar {
     background-color: rgba(132, 95, 110, 0.75);
 }
 
-.build_step {
+.build_step, .cross_panel{
     position: absolute;
     background-color: rgba(255, 239, 246, 1);
     border: 1px solid #845F6E;
@@ -448,6 +450,102 @@ span.light{
     font-size: 24px;
 }
 
+/*CART PAGE*/
+
+#cart_summary {
+    background-color: rgba(255, 239, 246, 1);
+    border: 1px solid #845F6E;
+}
+
+#cart_contents_div{
+    top: 220px;
+}
+
+#cart_columns{
+    position: absolute;
+    top: 220px;
+    height: 78px;
+}
+
+.cart_header {
+    display: inline-block;
+    margin-right: 73px;
+    margin-left: 20px;
+}
+
+.cart_header_item {
+    margin-right: 180px;
+}
+
+.summary_subtotal{
+    position: absolute;
+    left: 20px;
+}
 
 
 
+.summary_tax{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+.summary_total{
+    position: absolute;
+    left: 20px;
+    top: 140px;
+}
+
+
+
+.cart_val{
+    position: absolute;
+    left: 150px;
+}
+
+#checkout_button li{
+    position: relative;
+    border: 1px solid #845F6E;
+    top: 100px;
+    right: 40px;
+
+}
+
+#cart_contents_div #cart_contents .in_cart {
+    position: absolute;
+    top: 300px;
+    left: 273px;
+}
+
+.in_cart{
+    width: 670px;
+}
+
+.in_cart h2{
+    text-align: left;
+    margin-left: 60px;
+}
+
+.in_cart .fact{
+    position: relative;
+    display: inline;
+    margin-right: 70px;
+    left: 260px;
+    top: -200px;
+}
+
+.dropdown {
+    display: inline-block;
+    background-color: white;
+}
+
+.dropdown .fact{
+    left: 15px;
+    top: 0px;
+}
+
+#cart_arrow{
+    position: relative;
+    left: -30px;
+    top: -0px;
+}

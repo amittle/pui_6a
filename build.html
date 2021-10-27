@@ -20,14 +20,16 @@
                 <li class = "nav item"><a href = "build.html">Build-a-BunBox</a></li>
                 <li class = "nav item"><a>Location</a></li>
             </ul>
-            <img id = "cart", alt = "View Cart", src = "Images/carticon.png">
+            <a id = "cart_link", href = "cartpage.html">
+                <img id = "cart", alt = "View Cart", src = "Images/carticon.png">
+            </a>
 
 
         </div>
     </header>
     <main>
         <div id = "build_container">
-            <div id = "sidebar">
+            <div id = "sidebar", class = "left_panel">
                 <img src = "Images/info.png", id = "info">
                 <ul id = "step_labels">
                     <li>Box Size</li>
@@ -37,7 +39,7 @@
 
             </div>
             <div id = "build_field">
-                <div id = "sizes_step", class = "build_step">
+                <div id = "sizes_step", class = "build_step cross_panel">
                     <div id = "sizes_opts">
                         <img src = "Images/1.png">
                         <img src = "Images/3.png">
