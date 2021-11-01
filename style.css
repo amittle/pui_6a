@@ -57,6 +57,14 @@ h1 {
 
 }
 
+#cart_num{
+    position: absolute;
+    left: 950px;
+    top: -5px;
+    z-index: 1000;
+
+}
+
 #links {
     position: absolute;
     left: 200px;
